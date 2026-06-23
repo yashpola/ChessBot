@@ -32,7 +32,7 @@ def generate_next_move(historical_moves, white_elo, black_elo, tokenizer, model)
     )
     
     user_message = (
-        f"Game Context:\n- White Elo: {white_elo}\n- Black Esslo: {black_elo}\n\n"
+        f"Game Context:\n- White Elo: {white_elo}\n- Black Elo: {black_elo}\n\n"
         f"Current Move History (SAN):\n[{moves_history}]\n\n"
         "What is the next best move?"
     )
